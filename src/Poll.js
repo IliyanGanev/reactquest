@@ -81,54 +81,50 @@ class Poll extends Component {
       <li key={a.id}>
       <h3>{a.text}</h3>  
       </li>
-      );
+    );
 
 
     return (
       <div className="Poll">
       <div className="Poll-header">
-      <h2>World</h2>
+        <h2>World</h2>
 
-      <ul>{randomQuestion}</ul>
-      <p>{console.log(answers[0].text)}</p>
+        <ul>{randomQuestion}</ul>
+        <p>{console.log(answers[0].text)}</p>
 
       </div>
 
-      <ul>{responses}</ul>
+        <ul>{responses}</ul>
 
 
 
       <form>
-      <div className="radio">
-      <label>
-      <input type="radio" value={answers[0].text}
-      checked={this.state.selectedOption === answers[0].text}
-      onChange={this.handleOptionChange}  /><span>{answers[0].text}</span>
-
-      </label>
-      </div>
-      <div className="radio">
-      <label>
-      <input type="radio" value={answers[1].text}
-      checked={this.state.selectedOption === answers[1].text}
-      onChange={this.handleOptionChange}  /><span>{answers[1].text}</span>
-      </label>
-      </div>
-      <div className="radio">
-      <label>
-      <input type="radio" value={answers[2].text}
-      checked={this.state.selectedOption === answers[2].text}
-      onChange={this.handleOptionChange}  /><span>{answers[2].text}</span>
-
-      </label>
-      </div>
+        <div className="radio">
+          <label>
+            <input type="radio" value={answers[0].text}
+            checked={this.state.selectedOption === answers[0].text}
+            onChange={this.handleOptionChange}  /><span>{answers[0].text}</span>
+          </label>
+        </div>
+        <div className="radio">
+          <label>
+            <input type="radio" value={answers[1].text}
+            checked={this.state.selectedOption === answers[1].text}
+            onChange={this.handleOptionChange}  /><span>{answers[1].text}</span>
+          </label>
+        </div>
+        <div className="radio">
+          <label>
+            <input type="radio" value={answers[2].text}
+            checked={this.state.selectedOption === answers[2].text}
+            onChange={this.handleOptionChange}  /><span>{answers[2].text}</span>
+          </label>
+        </div>
       </form>    
 
 
-
-
       </div>
-      );
+    );
   }
 }
 
