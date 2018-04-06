@@ -1,6 +1,6 @@
-This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
+This project can be seen [Here](https://blooming-fortress-61165.herokuapp.com).
 
 
-## Clone and run with 'npm start'.
+## Or clone on local machine and run with 'npm start'.
 
 
