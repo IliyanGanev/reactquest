@@ -1,11 +1,13 @@
 .Poll {
   text-align: center;
 }
-
+span{
+	color:white;	
+}
 
 .Poll-header {
   background-color: #222;
-  height: 150px;
+  height: 250px;
   padding: 20px;
   color: white;
 }
@@ -18,3 +20,41 @@ span{
 	color:black;
 }
 
+li{
+	list-style:none;
+}
+
+.helloworld{
+color:#00caf5;
+}
+
+.red {
+	color:red;
+}
+
+.green {
+	color:#4ccca3;
+}
+
+.blue {
+	color:#32a0d1;
+}
+
+.dog, .cat, .bird{
+	color:grey;
+}
+
+button{
+	font-size:16px;
+	background:white;
+	border: 2px solid #32a0d1;
+	padding:5px;
+	margin-bottom:1em;
+	margin-left:15px;
+	margin-top:1em;
+}
+
+button:hover{
+	border: 2px solid #32a0d1;
+	background:#32a0d1;
+}
